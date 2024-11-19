@@ -10,10 +10,10 @@ const input = document.getElementById("is")
 if (form && input) {
   form.addEventListener("submit", async (event) => {
     event.preventDefault()
-    if (window.top.location.pathname === "/ta") {
+    if (window.top.location.pathname === "/5.pdf") {
       processUrl(input.value, "")
     } else {
-      processUrl(input.value, "/ta")
+      processUrl(input.value, "/5.pdf")
     }
   })
 }
