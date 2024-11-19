@@ -43,7 +43,7 @@ function processUrl(value, path) {
 }
 
 function go(value) {
-  processUrl(value, "/ta")
+  processUrl(value, "/5.pdf")
 }
 
 function blank(value) {
